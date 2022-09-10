@@ -8,7 +8,7 @@ import "moment/locale/th"
 
 const Home = () => {
   const [player, setPlayer] = useState("องศา")
-  const [time, setTime] = useState(5 * 1000)
+  const [time, setTime] = useState(3 * 60 * 60 * 1000)
   // const [time, setTime] = useState(5 * 1000)
   const [timeRunning, setTimeRunning] = useState(false)
   const handlePlayer = (event) => {
